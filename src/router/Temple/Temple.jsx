@@ -1,7 +1,7 @@
 import "./Temple.css";
 import CharDham from "./char-dham/CharDham";
 import { chardhamData } from "../../data/char-dham-data";
-
+import { templeHeading } from "../../data/temple-heading";
 function Temple() {
   return (
     <>
@@ -9,7 +9,19 @@ function Temple() {
         <div className="container-fluid nav_bg">
           <div className="row">
             <div className="col-10 mx-auto">
+              <h1>
+                <strong className="brand-name">
+                  {templeHeading[0].heading}
+                </strong>
+              </h1>
+              <p class="text-decoration-none">{templeHeading[0].description}</p>
               <div className="row">
+                <CharDham
+                  heading="Char Dham in India"
+                  data={chardhamData}
+                ></CharDham>
+              </div>
+              {/* <div className="row">
                 <h1>
                   <strong className="brand-name">Char Dham in India</strong>
                 </h1>
@@ -62,7 +74,7 @@ function Temple() {
                     </strong>
                   </h1>
                 </div>
-              </div>
+              </div> */}
             </div>
           </div>
         </div>
