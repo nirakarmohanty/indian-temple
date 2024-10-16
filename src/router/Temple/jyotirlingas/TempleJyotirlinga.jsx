@@ -1,8 +1,6 @@
-import "./Temple.css";
-import CharDham from "./char-dham/CharDham";
-import { chardhamData } from "../../data/char-dham-data";
-import { templeHeading } from "../../data/temple-heading";
-function Temple() {
+import { chardhamData } from "../../../data/char-dham-data";
+import { templeHeading } from "../../../data/temple-heading";
+function TempleJyotirlinga() {
   return (
     <>
       <section id="header">
@@ -23,4 +21,4 @@ function Temple() {
   );
 }
 
-export default Temple;
+export default TempleJyotirlinga;

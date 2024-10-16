@@ -74,15 +74,15 @@ function Navbar() {
                         class="dropdown-menu"
                         aria-labelledby="navbarDropdown"
                       >
-                        <a class="dropdown-item" href="/temple">
-                          Char Dham
+                        <a class="dropdown-item" href="/chardham">
+                          Chardham
                         </a>
-                        <a class="dropdown-item" href="#">
-                          Jyotirlinga
+                        <a class="dropdown-item" href="/jyotirlinga">
+                          JyotirLinga
                         </a>
                         <div class="dropdown-divider"></div>
                         <a class="dropdown-item" href="#">
-                          Shaktipeeth
+                          Something else here
                         </a>
                       </div>
                     </li>
