@@ -58,7 +58,34 @@ function Navbar() {
                         Temple
                       </NavLink>
                     </li>
-
+                    <li class="nav-item dropdown">
+                      <a
+                        class="nav-link dropdown-toggle"
+                        href="#"
+                        id="navbarDropdown"
+                        role="button"
+                        data-bs-toggle="dropdown"
+                        aria-haspopup="true"
+                        aria-expanded="false"
+                      >
+                        Dropdown
+                      </a>
+                      <div
+                        class="dropdown-menu"
+                        aria-labelledby="navbarDropdown"
+                      >
+                        <a class="dropdown-item" href="/temple">
+                          Char Dham
+                        </a>
+                        <a class="dropdown-item" href="#">
+                          Jyotirlinga
+                        </a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#">
+                          Shaktipeeth
+                        </a>
+                      </div>
+                    </li>
                     <li className="nav-item">
                       <NavLink
                         aria-current="page"

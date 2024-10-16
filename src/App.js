@@ -8,8 +8,8 @@ import { Routes, Route } from "react-router-dom";
 import "@popperjs/core";
 import Navbar from "./navbar/Navbar";
 import "./App.css";
-import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
-import "../node_modules/bootstrap/dist/js/bootstrap.bundle";
+import "bootstrap/dist/css/bootstrap.min.css";
+import "bootstrap/dist/js/bootstrap.bundle.min.js";
 
 function App() {
   return (

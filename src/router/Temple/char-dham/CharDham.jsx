@@ -11,7 +11,7 @@ function CharDham(props) {
               <img src={item.image} class="card-img-top" alt={item.alt} />
               <div class="card-body">
                 <h5 class="card-title">{item.name}</h5>
-                <p class="card-text text-truncate">{item.description}</p>
+                <p class="card-text">{item.description}</p>
               </div>
               <div class="card-footer">
                 <small class="text-muted">
