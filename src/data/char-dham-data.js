@@ -2,7 +2,7 @@ import React from "react";
 import puri_img from "../image/puri.jpg";
 import rameswarma_img from "../image/rameswaram.jpg";
 import dwaraka_img from "../image/dwarka.jpg";
-import badrinath_img from "../image/rameswaram.jpg";
+import badrinath_img from "../image/Badrinath_Temple.jpg";
 
 export const chardhamData = [
   {
