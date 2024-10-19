@@ -13,6 +13,7 @@ function TempleChardham() {
                   {templeHeading[0].heading}
                 </strong>
               </h1>
+              <hr class="hr" />
               <p class="text-decoration-none">{templeHeading[0].description}</p>
               <div className="row">
                 <CharDham

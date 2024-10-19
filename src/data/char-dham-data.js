@@ -32,7 +32,7 @@ export const chardhamData = [
   {
     name: "Badrinath ",
     image: badrinath_img,
-    shortDescription: "A shrine to Lord Vishnu",
+    shortDescription: "A shrine to Vishnu",
     alt: "badrinath_img",
     description:
       "Badrinath is one of the holiest Hindu pilgrimage sites, located in the Chamoli district of Uttarakhand, India. It is part of the Char Dham pilgrimage circuit, along with Dwarka, Puri, and Rameswar.",

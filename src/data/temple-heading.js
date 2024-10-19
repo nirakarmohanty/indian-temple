@@ -1,5 +1,3 @@
-import CharDham from "../router/Temple/char-dham/CharDham";
-
 export const templeHeading = [
   {
     name: "CharDham",
