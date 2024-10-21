@@ -7,7 +7,7 @@ import badrinath_img from "../image/Badrinath_Temple.jpg";
 export const chardhamData = [
   {
     name: "Puri",
-    shortDescription: " A shrine to Vishnu",
+    shortDescription: "A shrine to Vishnu",
     description:
       "Puri Jagannath refers to both the famous temple dedicated to Lord Jagannath in Puri, Odisha, and the annual Rath Yatra (chariot festival) associated with it.",
     image: puri_img,

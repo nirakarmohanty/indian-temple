@@ -1,5 +1,5 @@
 import { NavLink } from "react-router-dom";
-import web from "../../image/krishna.png";
+import HomeCarousel from "./HomeCarousel";
 import "./Home.css";
 function Home() {
   return (
@@ -22,8 +22,6 @@ function Home() {
                       सर्वधर्मान्परित्यज्य मामेकं शरणं व्रज | <br></br>अहं त्वां
                       सर्वपापेभ्यो मोक्षयिष्यामि मा शुच: || 18.66||
                     </p>
-
-                    <br></br>
                     <hr class="hr" />
                     <hr class="hr" />
                     <p className="hindi-text1">
@@ -38,12 +36,14 @@ function Home() {
                     </NavLink>
                   </div>
                 </div>
-                <div className="col-lg-6  order-1 order-lg-2 header-imag">
-                  <img
+                <div className="col-lg-6  order-1 order-lg-2 header-imag d-flex justify-content-center flex-column">
+                  {/* <img
                     src={web}
                     className="img-fluid animated"
                     alt="home img"
-                  />
+                  /> */}
+
+                  <HomeCarousel />
                 </div>
               </div>
             </div>

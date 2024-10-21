@@ -165,6 +165,7 @@ button:hover {
   --bs-accordion-item-color: #000000 !important;
   --bs-accordion-btn-focus-box-shadow: none !important;
   --bs-accordion-btn-focus-border-color: unset !important;
+  --bs-accordion-color: #cc99ff !important;
 } /*
 
   

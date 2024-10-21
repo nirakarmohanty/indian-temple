@@ -1,0 +1,26 @@
+[
+  {
+    "id": "1",
+    "name": "Puri",
+    "history": " A shrine to Vishnu",
+    "howtoreach": "By Air\nPuri does not have an airport. Nearest airport is Bhubaneswar Biju Pattnaik International Airport, 60 KM.\n\nBy Rail\nPuri is a terminus on the East Coast Railway having direct express and super fast train links with New Delhi, Mumbai, Kolkata, Okha, Ahmedabad, Tirupati etc. Some important trains are Kolkata (Howrah) Puri Howrah Express, Jagannath Express; New Delhi; Purushottam Express. Khurda Road Station, 44 km, from Puri is convenient rail head for train to Chennai and Western India.\n\nBy Road\nThe bus stand near the Gundicha Temple provides connections to Bhubaneswar and Cuttack, service every 10-15 minutes. Minibuses to Konark leave every 20-30 minutes . There are direct buses for Kolkata and Visakhapatnam. ",
+    "stay": "Puri offers a range of accommodation options to suit different preferences and budgets. Here are some popular areas and types of places to consider",
+    "hotels": [
+      { "id": 1, "name": "Ford" },
+      { "id": 2, "name": "BMW" },
+      { "id": 3, "name": "Fiat" }
+    ]
+  },
+  {
+    "id": "2",
+    "name": "Puri",
+    "history": " A shrine to Vishnu",
+    "howtoreach": "By Air\nPuri does not have an airport. Nearest airport is Bhubaneswar Biju Pattnaik International Airport, 60 KM.\n\nBy Rail\nPuri is a terminus on the East Coast Railway having direct express and super fast train links with New Delhi, Mumbai, Kolkata, Okha, Ahmedabad, Tirupati etc. Some important trains are Kolkata (Howrah) Puri Howrah Express, Jagannath Express; New Delhi; Purushottam Express. Khurda Road Station, 44 km, from Puri is convenient rail head for train to Chennai and Western India.\n\nBy Road\nThe bus stand near the Gundicha Temple provides connections to Bhubaneswar and Cuttack, service every 10-15 minutes. Minibuses to Konark leave every 20-30 minutes . There are direct buses for Kolkata and Visakhapatnam. ",
+    "stay": "Puri offers a range of accommodation options to suit different preferences and budgets. Here are some popular areas and types of places to consider",
+    "hotels": [
+      { "id": 1, "name": "Ford" },
+      { "id": 2, "name": "BMW" },
+      { "id": 3, "name": "Fiat" }
+    ]
+  }
+]
