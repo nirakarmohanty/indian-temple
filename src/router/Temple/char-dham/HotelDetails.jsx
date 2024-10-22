@@ -1,17 +1,14 @@
-import { useState } from "react";
-const HotelDetails = (props) => {
+function HotelDetails(props) {
   debugger;
-  const [data, setData] = useState(props.hotel);
-  console.log(data);
   return (
     <>
-      {
-        <div className="my-1">
-          <h1>Mi Casa</h1>
-          <p>This is my house yall!</p>
+      {props.hotelname.map((element, index) => (
+        <div className="my-2">
+          <h5 className="text-muted description">{element.name}</h5>
         </div>
-      }
+      ))}
+      ;
     </>
   );
-};
+}
 export default HotelDetails;
