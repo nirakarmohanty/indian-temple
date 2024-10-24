@@ -8,23 +8,28 @@
     "hotels": [
       {
         "id": 1,
-        "name": "1. **Beachfront Hotels**: Many visitors prefer staying close to the beach. Options like The Mayfair Waves, Hotel Hans Coco Palms, and Swosti Premium offer great views and easy beach access."
+        "name": "1.Beachfront Hotels:",
+        "description": "Many visitors prefer staying close to the beach. Options like The Mayfair Waves, Hotel Hans Coco Palms, and Swosti Premium offer great views and easy beach access."
       },
       {
         "id": 2,
-        "name": "2. **Heritage Hotels**: For a more cultural experience, consider places like The Toshali Sands or Hotel Sea Horse, which reflect local architecture and charm."
+        "name": "2.Heritage Hotels:",
+        "description": "For a more cultural experience, consider places like The Toshali Sands or Hotel Sea Horse, which reflect local architecture and charm."
       },
       {
         "id": 3,
-        "name": "3. **Budget Hotels and Guesthouses**: If you're looking for budget-friendly options, there are many guesthouses and budget hotels, such as Jagannath Guest House and New Sea Hawk."
+        "name": "3.Budget Hotels and Guesthouses:",
+        "description": " If you're looking for budget-friendly options, there are many guesthouses and budget hotels, such as Jagannath Guest House and New Sea Hawk."
       },
       {
         "id": 4,
-        "name": "4. **Near Jagannath Temple**: Staying close to the temple can be convenient for devotees. Options include Hotel Grand Mangal and Hotel Holiday Resort."
+        "name": "4.Near Jagannath Temple:",
+        "description": "Staying close to the temple can be convenient for devotees. Options include Hotel Grand Mangal and Hotel Holiday Resort."
       },
       {
         "id": 5,
-        "name": "5. **Luxury Resorts**: For a more upscale experience, consider resorts like The Puri Beach Resort or Ramada by Wyndham Puri.When choosing where to stay, consider your priorities, whether it\u2019s proximity to the beach, the temple, or local attractions"
+        "name": "5.Luxury Resorts:",
+        "description": "For a more upscale experience, consider resorts like [The Puri Beach Resort](https://www.hotelpuribeachresort.com/) or Ramada by Wyndham Puri.When choosing where to stay, consider your priorities, whether it\u2019s proximity to the beach, the temple, or local attractions"
       }
     ]
   },

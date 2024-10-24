@@ -26,9 +26,9 @@ function TempleAccordian(props) {
             <h1 className="text-center">Hotesl And Stay</h1>
           </div>
           <div className="my-1">
-            {/* <h5 className="text-muted description">
+            <h5 className="text-muted description">
               {props.selecctedData.stay}
-            </h5> */}
+            </h5>
           </div>
 
           <HotelDetails hotelname={props.selecctedData.hotels} />
