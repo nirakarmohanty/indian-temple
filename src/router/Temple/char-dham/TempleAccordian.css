@@ -74,5 +74,8 @@ h1 {
 .description {
   margin-top: 1rem !important;
   margin-bottom: 0.5rem !important;
-  margin-left: 11.12rem !important;
+  margin-left: 1.12rem !important;
+}
+.nearbyplaces-left-banner {
+  color: #565387 !important;
 }

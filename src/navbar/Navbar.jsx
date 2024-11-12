@@ -1,16 +1,14 @@
 import { NavLink } from "react-router-dom";
 import "./Navbar.css";
 
-const classNameFunc = ({ isActive }) => (isActive ? "menu_active" : "");
-
 function Navbar() {
   return (
     <>
-      <div className="container-fluid  nav_bg">
+      <div className="container-fluid nav_bg ">
         <div className="row">
-          <div className="col-10 mx-auto">
-            <nav className="navbar navbar-expand-lg bg-body-tertiary background-color: #e3f2fd;">
-              <div className="container-fluid">
+          <div className="col-12 mx-auto warning">
+            <nav class="navbar fixed-top navbar-expand-lg bg-body-tertiary">
+              <div className="container-fluid navbar-colour">
                 <NavLink
                   className="navbar-brand"
                   activeClassName="menu_active"
@@ -80,6 +78,9 @@ function Navbar() {
                         <a class="dropdown-item" href="/jyotirlinga">
                           JyotirLinga
                         </a>
+                        <a class="dropdown-item" href="/shkathipeeth">
+                          ShaktiPeeth
+                        </a>
                         <div class="dropdown-divider"></div>
                         <a class="dropdown-item" href="#">
                           Something else here
@@ -107,6 +108,22 @@ function Navbar() {
                       >
                         Feedback
                       </NavLink>
+                    </li>
+                    <li className="nav-item">
+                      <form class="form-inline">
+                        <input
+                          class="form-control mr-sm-2"
+                          type="search"
+                          placeholder="Search"
+                          aria-label="Search"
+                        />
+                        {/* <button
+                          class="btn btn-outline-success my-2 my-sm-0"
+                          type="submit"
+                        >
+                          Search
+                        </button> */}
+                      </form>
                     </li>
                   </ul>
                 </div>

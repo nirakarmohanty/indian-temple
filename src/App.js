@@ -15,6 +15,8 @@ import "../node_modules/bootstrap/js/dist/dropdown.js";
 import TempleChardham from "./router/Temple/char-dham/TempleChardham";
 import TempleJyotirlinga from "./router/Temple/jyotirlingas/TempleJyotirlinga";
 import TempleDetilas from "./router/Temple/char-dham/TempleDetails.jsx";
+import Footer from "./footer/Footer.jsx";
+import TempleShakthiPeeth from "./router/Temple/sakti-peeth/Temple-ShakthiPeeth.jsx";
 function App() {
   return (
     <>
@@ -28,8 +30,11 @@ function App() {
         <Route path="*" element={<NotFound />} />
         <Route path="/chardham" element={<TempleChardham />} />
         <Route path="/jyotirlinga" element={<TempleJyotirlinga />} />
+        <Route path="/shkathipeeth" element={<TempleShakthiPeeth />} />
         <Route path="/temple-details" element={<TempleDetilas />} />
       </Routes>
+      <br></br>
+      <Footer />
     </>
   );
 }

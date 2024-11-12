@@ -9,12 +9,12 @@ const TempleDetilasHeader = () => {
     <>
       <div className="col-md-11 pt-5 pt-lg-0">
         <div class="row">
-          <div className="my-5">
+          <div className="header-nmae-property">
             <h1 className="text-center">{name}</h1>
           </div>
-          <div className="my-2">
+          <div className="my-2 ">
             <h5 className="text-muted description">{description}</h5>
-            <hr class="border border-primary border-1 opacity-50"></hr>
+            {/* <hr class="border border-primary border-1 opacity-50"></hr> */}
           </div>
         </div>
       </div>

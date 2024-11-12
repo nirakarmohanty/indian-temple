@@ -7,31 +7,35 @@ function TempleAccordian(props) {
       <div className="col-md-11 pt-5 pt-lg-0">
         <div class="row">
           <div className="my-1">
-            <h1 className="text-center">History</h1>
+            <h1 className="text-center header-history-property">History</h1>
           </div>
           <div className="my-1">
             <h5 className="text-muted description">
-              {props.selecctedData.history}
+              {props.selecctedData?.history}
+            </h5>
+          </div>
+          <div className="my-1 ">
+            <h1 className="text-center header-howtoreach-property">
+              How to reach
+            </h1>
+          </div>
+          <div className="my-1">
+            <h5 className="text-muted description">
+              {props.selecctedData?.howtoreach}
             </h5>
           </div>
           <div className="my-1">
-            <h1 className="text-center">How to reach</h1>
+            <h1 className="text-center header-howtoreach-property">
+              Hotesl And Stay
+            </h1>
           </div>
           <div className="my-1">
             <h5 className="text-muted description">
-              {props.selecctedData.howtoreach}
-            </h5>
-          </div>
-          <div className="my-1">
-            <h1 className="text-center">Hotesl And Stay</h1>
-          </div>
-          <div className="my-1">
-            <h5 className="text-muted description">
-              {props.selecctedData.stay}
+              {props.selecctedData?.stay}
             </h5>
           </div>
 
-          <HotelDetails hotelname={props.selecctedData.hotels} />
+          <HotelDetails hotelname={props.selecctedData?.hotels} />
         </div>
       </div>
     </>

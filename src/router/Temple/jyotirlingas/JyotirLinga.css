@@ -1,0 +1,34 @@
+.img-resize {
+  width: 540px; /* you can use % */
+  height: 250px;
+}
+
+.trim-text {
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+}
+.card-jyotirlinga {
+  background-color: black;
+  border: 1px solid #bacdd8;
+  padding: 8px;
+  border-radius: 12px;
+}
+.text-primary-heading {
+  --bs-text-opacity: 1;
+  color: #14a3c7 !important;
+}
+.btn-primary-heading {
+  --bs-btn-line-height: 10.5px;
+  color: #14a3c7 !important;
+}
+
+.text-shortdescription {
+  --bs-text-opacity: 1;
+  color: #14140f !important;
+}
+.text-more-details {
+  --bs-text-opacity: 1;
+  color: #ffff00 !important;
+}

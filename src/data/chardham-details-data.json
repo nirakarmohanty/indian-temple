@@ -31,11 +31,31 @@
         "name": "5.Luxury Resorts:",
         "description": "For a more upscale experience, consider resorts like [The Puri Beach Resort](https://www.hotelpuribeachresort.com/) or Ramada by Wyndham Puri.When choosing where to stay, consider your priorities, whether it\u2019s proximity to the beach, the temple, or local attractions"
       }
+    ],
+    "nearbyplaces": [
+      {
+        "id": 1,
+        "image": "/images/konark_temple.jpg",
+        "name": "Konark Temple",
+        "description": "Ornately sculpted, 13th-century Hindu place of worship depicting the vast chariot of sun god, Surya."
+      },
+      {
+        "id": 2,
+        "image": "/images/Gundicha_Temple.jpg",
+        "name": "Gundicha Temple",
+        "description": " It is significant for being the destination of the celebrated annual Rath Yatra of Puri."
+      },
+      {
+        "id": 3,
+        "image": "/images/swargadwara-beach.jpg",
+        "name": "Swargadwar Sea Beach",
+        "description": "The place Swargadwar, which in the local language means ‘Door to Heaven’, holds great religious significance for Hindus as it is believed that people who take a dip in the sea at this place attain salvation and reach heaven after death."
+      }
     ]
   },
   {
     "id": "2",
-    "name": "Puri",
+    "name": "Rameswar",
     "history": " A shrine to Vishnu",
     "howtoreach": "By Air\nPuri does not have an airport. Nearest airport is Bhubaneswar Biju Pattnaik International Airport, 60 KM.\n\nBy Rail\nPuri is a terminus on the East Coast Railway having direct express and super fast train links with New Delhi, Mumbai, Kolkata, Okha, Ahmedabad, Tirupati etc. Some important trains are Kolkata (Howrah) Puri Howrah Express, Jagannath Express; New Delhi; Purushottam Express. Khurda Road Station, 44 km, from Puri is convenient rail head for train to Chennai and Western India.\n\nBy Road\nThe bus stand near the Gundicha Temple provides connections to Bhubaneswar and Cuttack, service every 10-15 minutes. Minibuses to Konark leave every 20-30 minutes . There are direct buses for Kolkata and Visakhapatnam. ",
     "stay": "Puri offers a range of accommodation options to suit different preferences and budgets. Here are some popular areas and types of places to consider",
@@ -43,6 +63,26 @@
       { "id": 1, "name": "Ford" },
       { "id": 2, "name": "BMW" },
       { "id": 3, "name": "Fiat" }
+    ],
+    "nearbyplaces": [
+      {
+        "id": 1,
+        "image": "/images/konark_temple.jpg",
+        "name": "Konark Temple",
+        "description": "Ornately sculpted, 13th-century Hindu place of worship depicting the vast chariot of sun god, Surya."
+      },
+      {
+        "id": 2,
+        "image": "/images/Gundicha_Temple.jpg",
+        "name": "Gundicha Temple",
+        "description": " It is significant for being the destination of the celebrated annual Rath Yatra of Puri."
+      },
+      {
+        "id": 3,
+        "image": "/images/swargadwara-beach.jpg",
+        "name": "Swargadwar Sea Beach",
+        "description": "The place Swargadwar, which in the local language means ‘Door to Heaven’, holds great religious significance for Hindus as it is believed that people who take a dip in the sea at this place attain salvation and reach heaven after death."
+      }
     ]
   }
 ]

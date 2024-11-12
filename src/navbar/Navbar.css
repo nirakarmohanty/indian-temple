@@ -7,11 +7,15 @@
   font-family: muli, sans-serif;
 }
 .navbar {
-  background-color: #fff !important;
+  background-color: #13030300 !important;
+  position: fixed;
+  width: 100%;
+  z-index: 1000000;
+  top: 0;
 }
 .navbar-brand {
   font-size: 1.9rem !important;
-  color: #565387 !important;
+  color: white !important;
 }
 
 .navbar a {
@@ -20,9 +24,12 @@
 }
 
 .navbar a:hover {
-  color: #3498db !important;
+  color: #db8234 !important;
 }
-
+.navbar-colour {
+  background-color: #3498db !important;
+  border: 1px solid #11a861;
+}
 .menu_active {
   font-weight: bold !important;
   border-bottom: 1px solid #565387 !important;
@@ -31,4 +38,7 @@
 .active {
   font-weight: bold !important;
   border-bottom: 0.5px solid #565387 !important;
+}
+.nav-item {
+  color: white;
 }

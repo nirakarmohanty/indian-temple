@@ -1,24 +1,28 @@
 import "./Temple.css";
-import CharDham from "./char-dham/CharDham";
-import { chardhamData } from "../../data/char-dham-data";
+import { NavLink } from "react-router-dom";
 import { templeHeading } from "../../data/temple-heading";
 function Temple() {
   return (
     <>
-      <section id="header">
-        <div className="container-fluid nav_bg">
-          <div className="row">
-            <div className="col-10 mx-auto">
-              <h1 className="top-spacing">
-                <strong className="brand-name">
-                  {templeHeading[1].heading}
-                </strong>
-              </h1>
-              <p class="text-decoration-none">{templeHeading[1].description}</p>
+      <div id="header" class="row row-1 g-1 row-cols-md-1">
+        {templeHeading?.map((element, index) => (
+          <div className="container-fluid nav_bg">
+            <div className="row card border border-2">
+              <div className="col-10 mx-auto">
+                <h1 className="top-spacing brand-name-spacing">
+                  <strong className="brand-name">{element.heading}</strong>
+                </h1>
+
+                <p class="text-decoration-none">
+                  {element.description}
+                  <NavLink to={element.link}>More Details</NavLink>
+                </p>
+              </div>
             </div>
+            <br></br>
           </div>
-        </div>
-      </section>
+        ))}
+      </div>
     </>
   );
 }
