@@ -1,0 +1,91 @@
+[
+  {
+    "id": "1",
+    "name": "Somnath",
+    "Location": "Veraval, Gujarat, India",
+    "history": "The Somnath Jyotirlinga in Gujarat, India, is an ancient and revered temple with immense significance for people of various spiritual beliefs. This holy site has a rich and intriguing history, having been destroyed and rebuilt multiple times",
+    "myth": "According to legend, the Moon God/Chandra initially constructed the temple. The temple's importance is evident in the reverence it receives from devotees who visit it, seeking solace, peace, and spiritual upliftment.",
+    "ritual": "Devotees offer prayers, perform aarti, and offer flowers, coconut, and Bilva leaves to Lord Shiva. The Shivratri festival is celebrated here with great enthusiasm",
+    "moretoread": "The detailed story of Moon curse and formation of Somnath Jyotirlinga",
+    "stay": "When choosing the best hotels near Somnath Temple in Gujarat, several options are known for their comfort, amenities, and proximity to the temple. Here are a few highly regarded hotels in the area",
+    "hotels": [
+      {
+        "id": 1,
+        "name": "1. The Fern Residency Somnath:",
+        "description": "This upscale hotel offers contemporary rooms, a multi-cuisine restaurant, a swimming pool, and a fitness centre. It is located just 3 kilometres from Somnath Temple, making it a convenient choice for travellers."
+      },
+      {
+        "id": 2,
+        "name": "2.Lords Inn Somnath:",
+        "description": "Situated close to the temple, this hotel provides comfortable rooms, a rooftop restaurant, a swimming pool, and a spa. The property offers a blend of modern amenities and warm hospitality.."
+      },
+      {
+        "id": 3,
+        "name": "3.Hotel Ambar:",
+        "description": "Known for its excellent service and comfortable rooms, Hotel Ambar is located just 1 kilometre from the temple. It offers a restaurant, a 24-hour front desk, and free Wi-Fi for guests."
+      },
+      {
+        "id": 4,
+        "name": "4. The Grand Daksh:",
+        "description": "This hotel is known for its spacious rooms, friendly staff, and convenient location. It is approximately 2 kilometres from the temple and features a restaurant and a garden."
+      },
+      {
+        "id": 5,
+        "name": "5.Hotel Shubh Suvidha:",
+        "description": "Offering clean and comfortable rooms, this budget-friendly hotel is within walking distance of Somnath Temple. It provides basic amenities and is a popular choice among budget travelers."
+      }
+    ],
+    "nearbyplaces": [
+      {
+        "id": 1,
+        "image": "/images/konark_temple.jpg",
+        "name": "Konark Temple",
+        "description": "Ornately sculpted, 13th-century Hindu place of worship depicting the vast chariot of sun god, Surya."
+      },
+      {
+        "id": 2,
+        "image": "/images/Gundicha_Temple.jpg",
+        "name": "Gundicha Temple",
+        "description": " It is significant for being the destination of the celebrated annual Rath Yatra of Puri."
+      },
+      {
+        "id": 3,
+        "image": "/images/swargadwara-beach.jpg",
+        "name": "Swargadwar Sea Beach",
+        "description": "The place Swargadwar, which in the local language means ‘Door to Heaven’, holds great religious significance for Hindus as it is believed that people who take a dip in the sea at this place attain salvation and reach heaven after death."
+      }
+    ]
+  },
+  {
+    "id": "2",
+    "name": "Rameswar",
+    "history": " A shrine to Vishnu",
+    "howtoreach": "By Air\nPuri does not have an airport. Nearest airport is Bhubaneswar Biju Pattnaik International Airport, 60 KM.\n\nBy Rail\nPuri is a terminus on the East Coast Railway having direct express and super fast train links with New Delhi, Mumbai, Kolkata, Okha, Ahmedabad, Tirupati etc. Some important trains are Kolkata (Howrah) Puri Howrah Express, Jagannath Express; New Delhi; Purushottam Express. Khurda Road Station, 44 km, from Puri is convenient rail head for train to Chennai and Western India.\n\nBy Road\nThe bus stand near the Gundicha Temple provides connections to Bhubaneswar and Cuttack, service every 10-15 minutes. Minibuses to Konark leave every 20-30 minutes . There are direct buses for Kolkata and Visakhapatnam. ",
+    "stay": "Puri offers a range of accommodation options to suit different preferences and budgets. Here are some popular areas and types of places to consider",
+    "hotels": [
+      { "id": 1, "name": "Ford" },
+      { "id": 2, "name": "BMW" },
+      { "id": 3, "name": "Fiat" }
+    ],
+    "nearbyplaces": [
+      {
+        "id": 1,
+        "image": "/images/konark_temple.jpg",
+        "name": "Konark Temple",
+        "description": "Ornately sculpted, 13th-century Hindu place of worship depicting the vast chariot of sun god, Surya."
+      },
+      {
+        "id": 2,
+        "image": "/images/Gundicha_Temple.jpg",
+        "name": "Gundicha Temple",
+        "description": " It is significant for being the destination of the celebrated annual Rath Yatra of Puri."
+      },
+      {
+        "id": 3,
+        "image": "/images/swargadwara-beach.jpg",
+        "name": "Swargadwar Sea Beach",
+        "description": "The place Swargadwar, which in the local language means ‘Door to Heaven’, holds great religious significance for Hindus as it is believed that people who take a dip in the sea at this place attain salvation and reach heaven after death."
+      }
+    ]
+  }
+]

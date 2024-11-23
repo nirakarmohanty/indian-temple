@@ -20,21 +20,23 @@ import TempleShakthiPeeth from "./router/Temple/sakti-peeth/Temple-ShakthiPeeth.
 function App() {
   return (
     <>
-      <Navbar />
-      <Routes>
-        <Route exact path="/temple" element={<Temple />} />
-        <Route exact path="/home" element={<Home />} />
-        <Route exact path="/planner" element={<Planner />} />
-        <Route exact path="/feedback" element={<Feedback />} />
-        <Route exact path="/" element={<Home />} />
-        <Route path="*" element={<NotFound />} />
-        <Route path="/chardham" element={<TempleChardham />} />
-        <Route path="/jyotirlinga" element={<TempleJyotirlinga />} />
-        <Route path="/shkathipeeth" element={<TempleShakthiPeeth />} />
-        <Route path="/temple-details" element={<TempleDetilas />} />
-      </Routes>
-      <br></br>
-      <Footer />
+      <div>
+        <Navbar />
+        <Routes>
+          <Route exact path="/temple" element={<Temple />} />
+          <Route exact path="/home" element={<Home />} />
+          <Route exact path="/planner" element={<Planner />} />
+          <Route exact path="/feedback" element={<Feedback />} />
+          <Route exact path="/" element={<Home />} />
+          <Route path="*" element={<NotFound />} />
+          <Route path="/chardham" element={<TempleChardham />} />
+          <Route path="/jyotirlinga" element={<TempleJyotirlinga />} />
+          <Route path="/shkathipeeth" element={<TempleShakthiPeeth />} />
+          <Route path="/temple-details" element={<TempleDetilas />} />
+        </Routes>
+
+        {/* <Footer /> */}
+      </div>
     </>
   );
 }

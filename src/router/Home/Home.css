@@ -84,3 +84,7 @@ img {
   color: #00bf19;
   text-align: center;
 }
+
+.card-region {
+  width: 18rem;
+}

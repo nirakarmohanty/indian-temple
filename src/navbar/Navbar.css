@@ -42,3 +42,9 @@
 .nav-item {
   color: white;
 }
+
+.image-color {
+  color: white;
+  cursor: pointer;
+  margin-left: 10px;
+}

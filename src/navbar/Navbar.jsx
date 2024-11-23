@@ -1,7 +1,38 @@
 import { NavLink } from "react-router-dom";
 import "./Navbar.css";
+import React, { useState } from "react";
 
 function Navbar() {
+  const [isChecked, setIsChecked] = useState(false);
+  const [isOpened, setIsOpened] = useState(false);
+
+  function toggle() {
+    setIsOpened((isOpened) => !isOpened);
+    changeTheme();
+  }
+
+  const toggleCheck = () => {
+    setIsChecked(!isChecked);
+    //handleClick();
+    changeTheme();
+  };
+  // const checkbox = isChecked ? selected : deselected;
+
+  const changeTheme = () => {
+    console.log("Click happened");
+    debugger;
+    var element = document.body;
+    element.dataset.bsTheme =
+      element.dataset.bsTheme == "light" ? "dark" : "light";
+  };
+  const changeImage = () => {
+    debugger;
+    var image = document.getElementById("light");
+    image.id == "light"
+      ? (image.value = '<i id="dark" class="bi bi-moon"></i>')
+      : (image.value = '<i id="light" class="bi bi-sun"></i>');
+  };
+
   return (
     <>
       <div className="container-fluid nav_bg ">
@@ -14,7 +45,7 @@ function Navbar() {
                   activeClassName="menu_active"
                   to="#"
                 >
-                  IndianTemple
+                  IndianPilgrimages
                 </NavLink>
                 <button
                   className="navbar-toggler"
@@ -109,23 +140,23 @@ function Navbar() {
                         Feedback
                       </NavLink>
                     </li>
-                    <li className="nav-item">
-                      <form class="form-inline">
-                        <input
-                          class="form-control mr-sm-2"
-                          type="search"
-                          placeholder="Search"
-                          aria-label="Search"
-                        />
-                        {/* <button
-                          class="btn btn-outline-success my-2 my-sm-0"
-                          type="submit"
-                        >
-                          Search
-                        </button> */}
-                      </form>
-                    </li>
                   </ul>
+                </div>
+                <div>
+                  {!isOpened && (
+                    <i
+                      id="dark"
+                      class="bi bi-sun image-color"
+                      onClick={() => toggle()}
+                    ></i>
+                  )}
+                  {isOpened && (
+                    <i
+                      id="light"
+                      class="bi bi-moon image-color"
+                      onClick={() => toggle()}
+                    ></i>
+                  )}
                 </div>
               </div>
             </nav>
