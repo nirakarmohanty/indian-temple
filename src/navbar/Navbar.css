@@ -14,8 +14,8 @@
   top: 0;
 }
 .navbar-brand {
-  font-size: 1.9rem !important;
-  color: white !important;
+  font-size: 1.1rem !important;
+  color: rgb(138, 120, 208) !important;
 }
 
 .navbar a {
@@ -27,8 +27,8 @@
   color: #db8234 !important;
 }
 .navbar-colour {
-  background-color: #3498db !important;
-  border: 1px solid #11a861;
+  background-color: #e8edf1 !important;
+  border: 0px solid #11a861;
 }
 .menu_active {
   font-weight: bold !important;
@@ -47,4 +47,12 @@
   color: white;
   cursor: pointer;
   margin-left: 10px;
+}
+.brand-logo {
+  border: 0px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  width: 50px;
+  max-width: 100%;
+  height: auto;
 }

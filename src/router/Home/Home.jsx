@@ -1,6 +1,6 @@
 import { NavLink } from "react-router-dom";
 import HomeCarousel from "./HomeCarousel";
-import RegionTemple from "./region/RegionTemple";
+import RegionTemple from "./important/DashboardTemple";
 import "./Home.css";
 
 function Home() {
@@ -52,33 +52,23 @@ function Home() {
           </div>
         </div>
       </div>
-      {/* <div id="header" className="d-flex align-items-center">
-        <div class="container">
-          <div class="row">
-            <RegionTemple />
-            <RegionTemple />
-            <RegionTemple />
-            <RegionTemple />
-            <RegionTemple />
-            <RegionTemple />
-            <RegionTemple />
-          </div>
-        </div>
-      </div> */}
+
       <div id="header" className="align-items-center">
         <div class="container-fluid">
           <div class="container-sm px-4">
             <div class="row gx-5">
               <div class="col-md-6">
                 <div class="ps-5 ps-3">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                  laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-                  irure dolor in reprehenderit in voluptate velit esse cillum
-                  dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-                  cupidatat non proident, sunt in culpa qui officia deserunt
-                  mollit anim id est laborum.
+                  <p class="text-decoration-none">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                    do eiusmod tempor incididunt ut labore et dolore magna
+                    aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                    ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                    Duis aute irure dolor in reprehenderit in voluptate velit
+                    esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
+                    occaecat cupidatat non proident, sunt in culpa qui officia
+                    deserunt mollit anim id est laborum.
+                  </p>
                 </div>
               </div>
               <div class="col">
@@ -97,14 +87,16 @@ function Home() {
               </div>
               <div class="col">
                 <div class="p-3">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                  laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-                  irure dolor in reprehenderit in voluptate velit esse cillum
-                  dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-                  cupidatat non proident, sunt in culpa qui officia deserunt
-                  mollit anim id est laborum.
+                  <p class="text-decoration-none">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                    do eiusmod tempor incididunt ut labore et dolore magna
+                    aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                    ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                    Duis aute irure dolor in reprehenderit in voluptate velit
+                    esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
+                    occaecat cupidatat non proident, sunt in culpa qui officia
+                    deserunt mollit anim id est laborum.
+                  </p>
                 </div>
               </div>
             </div>

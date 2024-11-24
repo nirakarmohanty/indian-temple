@@ -7,7 +7,7 @@ function CharDham(props) {
       <>
         <div className="col-md-3 pt-5 pt-lg-0 order-2 order-lg-1 d-flex justify-content-center flex-column">
           <div class="col">
-            <div class="card h-100 border border-primary rounded-start shadow">
+            <div class="card border border-primary card-property">
               <img src={item.image} class="card-img-top" alt={item.alt} />
               <div class="card-body">
                 <h5 class="card-title">{item.name}</h5>

@@ -1,6 +1,7 @@
 import { NavLink } from "react-router-dom";
 import "./Navbar.css";
 import React, { useState } from "react";
+import brandLogo from "../image/brand_logo.jpg";
 
 function Navbar() {
   const [isChecked, setIsChecked] = useState(false);
@@ -43,8 +44,9 @@ function Navbar() {
                 <NavLink
                   className="navbar-brand"
                   activeClassName="menu_active"
-                  to="#"
+                  to="/home"
                 >
+                  <img src={brandLogo} class="brand-logo" alt="..." />
                   IndianPilgrimages
                 </NavLink>
                 <button
@@ -126,7 +128,7 @@ function Navbar() {
                         className="nav-link"
                         activeClassName="menu_active"
                       >
-                        Planner
+                        About
                       </NavLink>
                     </li>
                     <li className="nav-item">

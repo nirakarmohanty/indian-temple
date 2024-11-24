@@ -15,12 +15,35 @@
   font-family: "Noto Sans", sans-serif;
 }
 
-.card {
+/* .card {
   background-color: white;
-  border: 1px solid #bacdd8;
-  padding: 8px;
-  border-radius: 12px;
+  border: 2px solid #bacdd8 !important;
+  padding: 10px;
+  border-radius: 0px;
+} */
+
+.card-property {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: left;
+  align-items: left;
+  text-align: left;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  cursor: pointer;
+  border-radius: 0; /* Set this to 0 to ensure sharp corners (no rounding) */
+  padding: 20px;
+  object-fit: cover;
 }
+
+/* Hover effect */
+.card-property:hover {
+  /* transform: translateX(-100px); */
+  transform: scale(1.1);
+  box-shadow: 10px 10px 20px 5px rgba(0, 0, 0, 0.3); /* Adds a more pronounced shadow */
+}
+
 .tag {
   padding: 4px 8px;
   border: 1px solid #e5eaed;
