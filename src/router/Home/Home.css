@@ -99,11 +99,3 @@ img {
   background-color: #f4ede4 !important; /* Set a blue background color */
   color: white; /* Optional: Set text color to white for better contrast */
 }
-
-.import-cards-text {
-  font-family: "Noto Sans", sans-serif;
-  font-optical-sizing: auto;
-  font-style: normal;
-  font-variation-settings: "wdth" 100;
-  font-size: 20px !important;
-}

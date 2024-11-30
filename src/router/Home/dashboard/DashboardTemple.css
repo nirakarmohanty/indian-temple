@@ -1,3 +1,14 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Playwrite+HR+Lijeva:wght@100..400&display=swap");
+
+.playwrite-hr-lijeva-header-dashboard {
+  font-family: "Playwrite HR Lijeva", cursive;
+  font-optical-sizing: auto;
+  font-weight: 100;
+  font-style: 86px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
 .card-width-dashboardTemple {
   /* max-width: 140px; */
   width: 20em;
@@ -27,4 +38,13 @@
 
 .text-highlighter {
   color: #3498db !important;
+}
+
+.import-cards-text {
+  font-size: 20px !important;
+  font-family: "Noto Sans", serif;
+  font-optical-sizing: auto;
+  font-weight: 12px;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
 }

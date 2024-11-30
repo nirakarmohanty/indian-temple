@@ -1,11 +1,10 @@
 import { NavLink } from "react-router-dom";
 import HomeCarousel from "./HomeCarousel";
 import "./Home.css";
-import DashboardTemple from "./dashboard/DashboardTemple";
-import LeftDescription from "./dashboard/LeftDescription";
-import RightDescription from "./dashboard/RightDescription";
+
 import { dashboarddata } from "../../data/dashboard/dashboard-data";
 import React, { useEffect, useState, useRef } from "react";
+import DashboardDescription from "./dashboard/DashboardDescription";
 function Home() {
   const leftDescriptionDataArray = [];
   const rightDescriptionDataArray = [];
@@ -13,44 +12,44 @@ function Home() {
   const [rightDescriptionData, setRightDescriptionData] = useState(null);
   const [error, setError] = useState(null); // To store errors if any
   const initialized = useRef(false);
-  useEffect(() => {
-    // This function will run once the component is mounted (page load)
-
-    const fetchData = async () => {
-      try {
-        dashboarddata.forEach((element, index) => {
-          if (index % 2 === 0) {
-            leftDescriptionDataArray.push(element);
-          } else {
-            rightDescriptionDataArray.push(element);
-          }
-        });
-        setLeftDescriptionData(leftDescriptionDataArray);
-        setRightDescriptionData(rightDescriptionDataArray);
-      } catch (error) {
-        setError(error.message); // Set error message if something goes wrong
-      }
-    };
-
-    fetchData(); // Call the fetchData function when component is mounted
-  }, []); // Empty dependency array means this will run only once (on page load)
-
   // useEffect(() => {
-  //   console.log(dashboarddata);
-  //   debugger;
-  //   if (!initialized.current) {
-  //     initialized.current = true;
-  //     dashboarddata.forEach((element, index) => {
-  //       if (index % 2 === 0) {
-  //         leftDescriptionDataArray.push(element);
-  //       } else {
-  //         rightDescriptionDataArray.push(element);
-  //       }
-  //     });
-  //     setLeftDescriptionData(leftDescriptionDataArray);
-  //     setRightDescriptionData(rightDescriptionDataArray);
-  //   }
-  // });
+  //   // This function will run once the component is mounted (page load)
+
+  //   const fetchData = async () => {
+  //     try {
+  //       dashboarddata.forEach((element, index) => {
+  //         if (index % 2 === 0) {
+  //           leftDescriptionDataArray.push(element);
+  //         } else {
+  //           rightDescriptionDataArray.push(element);
+  //         }
+  //       });
+  //       setLeftDescriptionData(leftDescriptionDataArray);
+  //       setRightDescriptionData(rightDescriptionDataArray);
+  //     } catch (error) {
+  //       setError(error.message); // Set error message if something goes wrong
+  //     }
+  //   };
+
+  //   fetchData(); // Call the fetchData function when component is mounted
+  // }, []); // Empty dependency array means this will run only once (on page load)
+
+  useEffect(() => {
+    console.log(dashboarddata);
+    debugger;
+    if (!initialized.current) {
+      initialized.current = true;
+      dashboarddata.forEach((element, index) => {
+        if (index % 2 === 0) {
+          leftDescriptionDataArray.push(element);
+        } else {
+          rightDescriptionDataArray.push(element);
+        }
+      });
+      setLeftDescriptionData(leftDescriptionDataArray);
+      setRightDescriptionData(rightDescriptionDataArray);
+    }
+  });
   return (
     <>
       <div id="header" className="d-flex align-items-center">
@@ -108,8 +107,7 @@ function Home() {
             </header>
 
             <div>
-              <LeftDescription data={leftDescriptionData}></LeftDescription>
-              <RightDescription data={rightDescriptionData}></RightDescription>
+              <DashboardDescription data={dashboarddata}></DashboardDescription>
             </div>
           </div>
         </section>
