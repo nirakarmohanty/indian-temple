@@ -15,7 +15,9 @@
 }
 .navbar-brand {
   font-size: 1.1rem !important;
-  color: rgb(138, 120, 208) !important;
+  color: rgb(20, 19, 21) !important;
+  font-family: "Sofia", sans-serif !important;
+  text-shadow: 3px 3px 3px #ababab;
 }
 
 .navbar a {

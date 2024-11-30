@@ -30,8 +30,8 @@ function Navbar() {
     debugger;
     var image = document.getElementById("light");
     image.id == "light"
-      ? (image.value = '<i id="dark" class="bi bi-moon"></i>')
-      : (image.value = '<i id="light" class="bi bi-sun"></i>');
+      ? (image.value = '<i id="dark" className="bi bi-moon"></i>')
+      : (image.value = '<i id="light" className="bi bi-sun"></i>');
   };
 
   return (
@@ -46,7 +46,11 @@ function Navbar() {
                   activeClassName="menu_active"
                   to="/home"
                 >
-                  <img src={brandLogo} class="brand-logo" alt="..." />
+                  <img
+                    src={brandLogo}
+                    class="brand-logo"
+                    alt="Indian-Pilgrimages"
+                  />
                   IndianPilgrimages
                 </NavLink>
                 <button

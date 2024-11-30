@@ -1,9 +1,56 @@
 import { NavLink } from "react-router-dom";
 import HomeCarousel from "./HomeCarousel";
-import RegionTemple from "./important/DashboardTemple";
 import "./Home.css";
-
+import DashboardTemple from "./dashboard/DashboardTemple";
+import LeftDescription from "./dashboard/LeftDescription";
+import RightDescription from "./dashboard/RightDescription";
+import { dashboarddata } from "../../data/dashboard/dashboard-data";
+import React, { useEffect, useState, useRef } from "react";
 function Home() {
+  const leftDescriptionDataArray = [];
+  const rightDescriptionDataArray = [];
+  const [leftDescriptionData, setLeftDescriptionData] = useState(null);
+  const [rightDescriptionData, setRightDescriptionData] = useState(null);
+  const [error, setError] = useState(null); // To store errors if any
+  const initialized = useRef(false);
+  useEffect(() => {
+    // This function will run once the component is mounted (page load)
+
+    const fetchData = async () => {
+      try {
+        dashboarddata.forEach((element, index) => {
+          if (index % 2 === 0) {
+            leftDescriptionDataArray.push(element);
+          } else {
+            rightDescriptionDataArray.push(element);
+          }
+        });
+        setLeftDescriptionData(leftDescriptionDataArray);
+        setRightDescriptionData(rightDescriptionDataArray);
+      } catch (error) {
+        setError(error.message); // Set error message if something goes wrong
+      }
+    };
+
+    fetchData(); // Call the fetchData function when component is mounted
+  }, []); // Empty dependency array means this will run only once (on page load)
+
+  // useEffect(() => {
+  //   console.log(dashboarddata);
+  //   debugger;
+  //   if (!initialized.current) {
+  //     initialized.current = true;
+  //     dashboarddata.forEach((element, index) => {
+  //       if (index % 2 === 0) {
+  //         leftDescriptionDataArray.push(element);
+  //       } else {
+  //         rightDescriptionDataArray.push(element);
+  //       }
+  //     });
+  //     setLeftDescriptionData(leftDescriptionDataArray);
+  //     setRightDescriptionData(rightDescriptionDataArray);
+  //   }
+  // });
   return (
     <>
       <div id="header" className="d-flex align-items-center">
@@ -53,55 +100,19 @@ function Home() {
         </div>
       </div>
 
-      <div id="header" className="align-items-center">
-        <div class="container-fluid">
-          <div class="container-sm px-4">
-            <div class="row gx-5">
-              <div class="col-md-6">
-                <div class="ps-5 ps-3">
-                  <p class="text-decoration-none">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore et dolore magna
-                    aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                    ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                    Duis aute irure dolor in reprehenderit in voluptate velit
-                    esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
-                    occaecat cupidatat non proident, sunt in culpa qui officia
-                    deserunt mollit anim id est laborum.
-                  </p>
-                </div>
-              </div>
-              <div class="col">
-                <div class="ps-3">
-                  <RegionTemple />
-                </div>
-              </div>
+      <div id="header" className="align-items-center ">
+        <section>
+          <div class="container-fluid  colored-box">
+            <header className="header-text-center">
+              <h1>Take a deeper dive to explore temples</h1>
+            </header>
+
+            <div>
+              <LeftDescription data={leftDescriptionData}></LeftDescription>
+              <RightDescription data={rightDescriptionData}></RightDescription>
             </div>
           </div>
-          <div class="container px-4">
-            <div class="row gx-5">
-              <div class="col">
-                <div class="p-3">
-                  <RegionTemple />
-                </div>
-              </div>
-              <div class="col">
-                <div class="p-3">
-                  <p class="text-decoration-none">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore et dolore magna
-                    aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                    ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                    Duis aute irure dolor in reprehenderit in voluptate velit
-                    esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
-                    occaecat cupidatat non proident, sunt in culpa qui officia
-                    deserunt mollit anim id est laborum.
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
+        </section>
       </div>
     </>
   );
